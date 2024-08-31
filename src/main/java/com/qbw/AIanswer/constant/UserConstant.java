@@ -30,5 +30,12 @@ public interface UserConstant {
      */
     String BAN_ROLE = "ban";
 
+    String DEFAULT_AVATAR = "https://oj-qbw-1324037679.cos.ap-shanghai.myqcloud.com/OJ_Avatar.jpg";
+
+    /**
+     * 默认随机生成用户名
+     */
+    String DEFAULT_USERNAME = "算法家-"+String.valueOf(System.currentTimeMillis()).substring(0,5);
+
     // endregion
 }
